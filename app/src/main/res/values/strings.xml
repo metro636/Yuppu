@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">yuppu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="minimum_password">Password Short</string>
+    <string name="default_notification_channel_id">mchat_ch_01</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_chat_room">ChatRoom</string>
+    <string name="help">To hide chatroom option from main menu go to settings page.
+To join a room you can either select one from public room select or you can directly join a room by selecting join option or else you can create you own room by selecting create option.
+you can acess multiple rooms at a time by clicking + symbol adding rooms to your room list in chat room page.
+To kick a user from chat room you should be owner of that room
+To block a user from contacting you click on the user name on users list and select option BLOCK.
+To send private message type username:message(Eg Albert:Hello)Username is case sensitive,if you dont type username correctly message wont be send.
+To leave a room go to room setting and select LEAVE option.</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

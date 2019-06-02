@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/audiowide"
+        android:text="yuppu"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <RelativeLayout
+        android:id="@+id/tlth1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView18">
+
+
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+
+        <RelativeLayout
+            android:id="@+id/rlthelp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textView18"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Here's few tips."
+                android:textColor="@color/PrimaryText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView19"
+                android:text="To hide chatroom option from main menu go to settings page." />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/textView20"
+                android:text="To join a room you can either select one from public room select or you can directly join a room by selecting join option or else you can create you own room by selecting create option. you can acess multiple rooms at a time by clicking + symbol adding rooms to your room list in chat room page." />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView21"
+                android:text="To kick a user from chat room you should be owner of that room." />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView22"
+                android:text="To block a user from contacting you click on the user name on users list and select option BLOCK." />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView23"
+                android:text=" To send private message type username:message(Eg Albert:Hello)Username is case sensitive,if you dont type username correctly message wont be send." />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView24"
+                android:text="To leave a room go to room setting and select LEAVE option." />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView25"
+                android:layout_marginTop="10dp"
+                android:text="Terms of Service"
+                android:textColor="@color/PrimaryText"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="385dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView26"
+                android:text="Please read these Terms of Service carefully before using our app(yuppu)." />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView27"
+                android:text="Your access to and use of the Service is conditioned on your acceptance of and compliance with these this terms and conditons." />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView28"
+                android:text="By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.  " />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView29"
+                android:layout_marginTop="10dp"
+                android:text="Termination"
+                android:textColor="@color/PrimaryText"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView30"
+                android:text=" We may terminate or suspend access to our Service immediately, without prior notice on account ofspamming or hurting or harrasing fellow users." />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView31"
+                android:layout_marginTop="10dp"
+                android:text="Governing Law"
+                android:textColor="@color/PrimaryText"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView32"
+                android:text="These Terms shall be governed Information Technology Act, 2000. We may preserve or disclose any information if we believe that it is reasonably necessary to comply with a law, regulation, legal process, or governmental request; to protect the safety of any person; to address fraud." />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView33"
+                android:text="For more help contact:admin@techdoom.com"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+    </ScrollView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnngoback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="13dp"
+        android:background="@android:color/transparent"
+        android:text="GoBack" />
+
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatRoomSettings"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/audiowide"
+        android:text="yuppu"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/tvrooomname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:gravity="center"
+        android:text="Room Name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="154dp"
+        android:text="created on "
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <Switch
+        android:id="@+id/switchimg"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:padding="5dp"
+        android:text="Images allowed"
+        android:textSize="17sp" />
+
+    <Switch
+        android:id="@+id/switchhide"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="278dp"
+        android:padding="5dp"
+        android:text="Hide room from public room list"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btnleave"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switchhide"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Leave Room"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnleave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Delete Room"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btngoback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btndelete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:text="Go Back."
+        android:textColor="@color/colorPrimary" />
+</RelativeLayout>
